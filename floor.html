@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/floor.css">
+
+    <!-- script -->
+    <script src="./script/jquery-3.7.1.min.js"></script>
+    <script src="./script/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="./script/common.js"></script>
+    <script src="./script/floor.js"></script>
+
+    <title>floor</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="h_inner">
+
+            <h1>
+                <a href="./index.html">
+                    <picture>
+                        <source srcset="image/main/m_logo.svg" media="(max-width:767px)">
+                        <source srcset="image/main/logo.svg" media="(max-width:1920px)">
+                        <img src="./image/main/logo.svg" alt="logo">
+                    </picture>
+                    <span class="t_hidden">오래도록</span>
+                </a>
+            </h1>
+
+            <ul class="menu">
+                <li>
+                    <a href="about.html">소개</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="about.html">
+                                오래도록
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                찾아오시는 길
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="floor.html">공간</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="floor.html">
+                                1층
+                            </a>
+                        </li>
+                        <li>
+                            <a href="floor.html">
+                                2층
+                            </a>
+                        </li>
+                        <li>
+                            <a href="floor.html">
+                                3층
+                            </a>
+                        </li>
+                        <li>
+                            <a href="floor.html">
+                                옥상
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="photo.html">오래오래사진관</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="photo.html">
+                                사진관 소개
+                            </a>
+                        </li>
+                        <li>
+                            <a href="photo.html">
+                                사진 촬영 예약
+                            </a>
+                        </li>
+                        <li>
+                            <a href="photo.html">
+                                하루배움 신청
+                            </a>
+                        </li>
+                        <li>
+                            <a href="photo.html">
+                                하루배움 후기
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">프로그램</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="#">
+                                공연&행사
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                전시
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                시니어 사진전
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                이벤트
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">소식</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="#">
+                                오래도록 소식
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                뉴스&공지사항
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                문의게시판
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+
+            <div class="h_btn">
+                <button type="button" class="mbtn">
+                    <img src="./image/main/menu.svg" alt="menu">
+                </button>
+
+                <button type="button" class="xbtn">
+                    <img src="./image/main/xbtn.svg" alt="xbtn">
+                </button>
+            </div>
+
+
+        </div>
+    </header>
+    <!-- //header -->
+
+    <!-- sitemap -->
+
+    <div class="sitemap">
+
+        <div class="site_inner">
+
+
+            <h2> 오래도록 <span class=blue>길잡이</span></h2>
+
+            <ul class="sitelist">
+                <li class="sitet"><a href="./about.html">
+                        소개
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="./about.html">오래도록</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="floor.html">
+                        공간
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="floor.html">1층</a></li>
+                        <li><a href="floor.html">2층</a></li>
+                        <li><a href="floor.html">3층</a></li>
+                        <li><a href="floor.html">옥상</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="photo.html">
+                        오래오래사진관
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="photo.html">촬영 예약</a></li>
+                        <li><a href="photo.html">하루배움신청</a></li>
+                        <li><a href="photo.html">하루배움후기</a></li>
+                        <li><a href="photo.html">시니어 사진전</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="#">
+                        공연과 전시
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="#">공연</a></li>
+                        <li><a href="#">전시</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="#">
+                        소식
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="#">오래도록 소식</a></li>
+                        <li><a href="#">뉴스/공지사항</a></li>
+                        <li><a href="#">문의게시판</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <!-- //sitemap -->
+
+    <div class="banner">
+        <img src="./image/floor/floor_banner.jpg" alt="s1">
+        <h2>층별 안내</h2>
+    </div>
+
+    <div class="smenu">
+        <ul class="ss">
+            <li class="home"><a href="./index.html">
+                    <img src="./image/about/smenuhome.svg" alt="home">
+                    홈
+                </a></li>
+            <li>
+                <a href="#">공간
+                    <img src="./image/about/smenudown.svg" alt="down">
+                </a>
+                <ul class="ssub">
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">사진관</a></li>
+                    <li><a href="#">프로그램</a></li>
+                    <li><a href="#">소식</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">층별 안내
+                    <img src="./image/about/smenudown.svg" alt="down">
+                </a>
+                <ul class="ssub">
+                    <li class="1floor"><a href="#">1층</a></li>
+                    <li class="2floor"><a href="#">2층</a></li>
+                    <li class="3floor"><a href="#">3층</a></li>
+                    <li class="rooftop"><a href="#">옥상</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+        <h3 class="mtitle">층별 안내</h3>
+
+        <ul class="floor_title">
+            <li><button type="button" class="f1btn">1층</button></li>
+            <li><button type="button" class="f2btn">2층</button></li>
+            <li><button type="button" class="f3btn">3층</button></li>
+            <li><button type="button" class="f4btn">옥상</button></li>
+        </ul>
+
+        <section class="floor_wrap">
+
+            <!-- 1층 -->
+            <div class="floor1_wrap">
+
+                <div class="floor_text">
+                    <h2>1층 힐링하도록</h2>
+                    <span>HEALING</span>
+                    <p>1층, 힐링하도록의 주 테마는 힐링입니다. <br>
+                        몸과 마음을 편안하게 해주는 다양한 활동이 지친 여러분을 위로해줄 것입니다.
+                    </p>
+                </div>
+
+                <div class="floor_tab">
+                    <img src="image/floor/1f.png" alt="1f">
+                </div>
+
+                <div class="fbox1">
+
+                    <div class="top-bar1">
+                        <a href="#" class="tab-link1" data-index="0"><span>1</span>편백나무실</a>
+                        <a href="#" class="tab-link1" data-index="1"><span>2</span>풋스파</a>
+                        <a href="#" class="tab-link1" data-index="2"><span>3</span>오래다방</a>
+                        <a href="#" class="tab-link1" data-index="3"><span>4</span>의무실</a>
+                        <a href="#" class="tab-link1" data-index="4"><span>5</span>실내정원</a>
+                    </div>
+
+                    <div Id="floor-container1"></div>
+
+                </div>
+
+            </div>
+
+            <!-- 2층 -->
+
+            <div class="floor2_wrap">
+
+                <div class="floor_text">
+                    <h2>2층 즐겁도록</h2>
+                    <span>ENJOY</span>
+                    <p>1층, 힐링하도록의 주 테마는 즐거움입니다. <br>
+                        다양한 종류의 즐길 거리가 제공되어 여러분이 원하는 즐거움을 찾아볼 수 있습니다.
+                    </p>
+                </div>
+
+                <div class="floor_tab">
+                    <img src="image/floor/2f.png" alt="2f">
+                </div>
+
+                <div class="fbox2">
+
+                    <div class="top-bar2">
+                        <a href="#" class="tab-link2" data-index="0"><span>1</span>도서관</a>
+                        <a href="#" class="tab-link2" data-index="1"><span>2</span>영화감상실</a>
+                        <a href="#" class="tab-link2" data-index="2"><span>3</span>오래오래사진관</a>
+                        <a href="#" class="tab-link2" data-index="3"><span>4</span>오락실</a>
+                        <a href="#" class="tab-link2" data-index="4"><span>5</span>음악감상실</a>
+                    </div>
+
+                    <div Id="floor-container2"></div>
+                </div>
+
+            </div>
+
+            <div class="floor3_wrap">
+
+
+                <div class="floor_text">
+                    <h2>3층 오래도록</h2>
+                    <span>ARTISTIC</span>
+                    <p>3층, 오래도록의 주 테마는 예술입니다. <br>
+                        다양한 공연과 전시회는 여러분의 눈과 귀를 풍요롭게 해줄 것입니다.
+                    </p>
+                </div>
+
+                <div class="floor_tab">
+                    <img src="image/floor/3f.png" alt="3f">
+                </div>
+
+                <div class="top-bar3">
+                    <a href="#" class="tab-link3" data-index="0"><span>1</span>제1공연장</a>
+                    <a href="#" class="tab-link3" data-index="1"><span>2</span>제2공연장</a>
+                    <a href="#" class="tab-link3" data-index="2"><span>3</span>전시관</a>
+                    <a href="#" class="tab-link3" data-index="3"><span>4</span>이벤트홀</a>
+                </div>
+
+                <div class="fbox3">
+
+                    <div id="floor-container3"></div>
+                </div>
+
+            </div>
+
+
+            <div class="floor4_wrap">
+
+
+                <div class="floor_text">
+                    <h2>옥상 건강하도록</h2>
+                    <span>HEALTHY</span>
+                    <p>옥상, 건강하도록의 주 테마는 건강입니다. <br>
+                        넓게 펼쳐진 바다 풍경과 여러 가지의 운동 시설이 여러분의 몸과 마음의 건강을 돌봐줄 것입니다.
+                    </p>
+                </div>
+
+                <div class="floor_tab">
+                    <img src="image/floor/rooftop.png" alt="roof">
+                </div>
+
+                <div class="top-bar4">
+                    <a href="#" class="tab-link4" data-index="0"><span>1</span>휴식공간</a>
+                    <a href="#" class="tab-link4" data-index="1"><span>2</span>하늘 전망대</a>
+                    <a href="#" class="tab-link4" data-index="2"><span>3</span>운동시설</a>
+                </div>
+
+                <div class="fbox4">
+
+                    <div id="floor-container4"></div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="f_inner">
+
+            <div class="f_top">
+
+                <div class="f_logo">
+                    <a href="#">
+                        <img src="./image/main/f_logo.svg" alt="f_logo">
+                    </a>
+                </div>
+
+                <div class="sns">
+
+                    <div class="family">
+                        <select>
+                            <option hidden>Family Site</option>
+                            <option>제주시청</option>
+                            <option>보건복지부</option>
+                            <option>여성가족부</option>
+                        </select>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#">
+                            <img src="./image/main/f_insta.svg" alt="insta">
+                        </a>
+                        <a href="#">
+                            <img src="./image/main/f_you.svg" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f_middle">
+                <div class="left">
+                    <h4>Company</h4>
+                    <p>주소 <span class="adress">제주도 제주시 구좌읍 해맞이해안로 1</span></p>
+                    <p>대표이사 <span class="name">안태경</span></p>
+                </div>
+                <div class="right">
+                    <h4>고객센터</h4>
+                    <p>Tel <span>064-5811-8084</span></p>
+                    <p>Fax <span>070-5811-8084</span></p>
+                </div>
+            </div>
+
+            <div class="f_bottom">
+                <p>
+                    Copyright@ALONGTIME ALL RIGHTS RESERVED.
+                </p>
+
+                <div class="info">
+                    <a href="#">개인정보취급방침</a>
+                    <a href="#">이용안내</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- //footer -->
+
+    <!-- quick btn-->
+
+    <div class="quick">
+        <button type="button" class="qbtn">
+            <span>QUICK</span>
+            <img src="./image/main/q_minus.svg" alt="minus" class="minus">
+            <img src="./image/main/morebtn.svg" alt="more" class="plus">
+        </button>
+
+        <div class="qboxs">
+            <div class="qbox">
+                <a href="./floor.html">
+                    <img src="./image/main/q_floor.svg" alt="q1">
+                    <p>층별안내</p>
+                </a>
+            </div>
+
+            <div class="qbox">
+
+                <a href="#">
+                    <img src="./image/main/q_park.svg" alt="q1">
+                    <p>주차안내</p>
+                </a>
+            </div>
+
+            <div class="qbox">
+                <a href="#">
+                    <img src="./image/main/q_pro.svg" alt="q1">
+                    <p>프로그램</p>
+                </a>
+            </div>
+
+            <div class="qbox">
+                <a href="#">
+                    <img src="./image/main/q_time.svg" alt="q1">
+                    <p>운영시간</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- //quick btn-->
+
+    <!-- topbtn -->
+    <button type="button" class="top">
+        <img src="./image/main/topbtn.svg" alt="top">
+    </button>
+    <!-- //topbtn -->
+
+
+
+
+</body>
+
+</html>

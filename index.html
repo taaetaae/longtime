@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <!-- favicon > link 태그 이용해서 연결 -->
+
+    <!-- script -->
+    <script src="./script/jquery-3.7.1.min.js"></script>
+    <script src="./script/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="./script/common.js"></script>
+    <script src="./script/app.js"></script>
+
+
+    <title>main</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="h_inner">
+
+            <h1>
+                <a href="./index.html">
+                    <picture>
+                        <source srcset="image/main/m_logo.svg" media="(max-width:767px)">
+                        <source srcset="image/main/logo.svg" media="(max-width:1920px)">
+                        <img src="./image/main/logo.svg" alt="logo">
+                    </picture>
+                    <span class="t_hidden">오래도록</span>
+                </a>
+            </h1>
+
+            <ul class="menu">
+                <li>
+                    <a href="about.html">소개</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="about.html">
+                                오래도록
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                찾아오시는 길
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="floor.html">공간</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="floor.html">
+                                1층
+                            </a>
+                        </li>
+                        <li>
+                            <a href="floor.html">
+                                2층
+                            </a>
+                        </li>
+                        <li>
+                            <a href="floor.html">
+                                3층
+                            </a>
+                        </li>
+                        <li>
+                            <a href="floor.html">
+                                옥상
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="photo.html">오래오래사진관</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="photo.html">
+                                사진관 소개
+                            </a>
+                        </li>
+                        <li>
+                            <a href="photo.html">
+                                사진 촬영 예약
+                            </a>
+                        </li>
+                        <li>
+                            <a href="photo.html">
+                                하루배움 신청
+                            </a>
+                        </li>
+                        <li>
+                            <a href="photo.html">
+                                하루배움 후기
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">프로그램</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="#">
+                                공연&행사
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                전시
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                시니어 사진전
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                이벤트
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">소식</a>
+                    <ul class="subm">
+                        <li>
+                            <a href="#">
+                                오래도록 소식
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                뉴스&공지사항
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                문의게시판
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+
+            <div class="h_btn">
+                <button type="button" class="mbtn">
+                    <img src="./image/main/menu.svg" alt="menu">
+                </button>
+
+                <button type="button" class="xbtn">
+                    <img src="./image/main/xbtn.svg" alt="xbtn">
+                </button>
+            </div>
+
+
+        </div>
+    </header>
+    <!-- //header -->
+
+    <!-- sitemap -->
+
+    <div class="sitemap">
+
+        <div class="site_inner">
+
+
+            <h2> 오래도록 <span class=blue>길잡이</span></h2>
+
+            <ul class="sitelist">
+                <li class="sitet"><a href="./about.html">
+                        소개
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="./about.html">오래도록</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="floor.html">
+                        공간
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="floor.html">1층</a></li>
+                        <li><a href="floor.html">2층</a></li>
+                        <li><a href="floor.html">3층</a></li>
+                        <li><a href="floor.html">옥상</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="photo.html">
+                        오래오래사진관
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="photo.html">촬영 예약</a></li>
+                        <li><a href="photo.html">하루배움신청</a></li>
+                        <li><a href="photo.html">하루배움후기</a></li>
+                        <li><a href="photo.html">시니어 사진전</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="#">
+                        공연과 전시
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="#">공연</a></li>
+                        <li><a href="#">전시</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </li>
+
+                <li class="sitet"><a href="#">
+                        소식
+                    </a>
+                    <ul class="subsite">
+                        <li><a href="#">오래도록 소식</a></li>
+                        <li><a href="#">뉴스/공지사항</a></li>
+                        <li><a href="#">문의게시판</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <!-- //sitemap -->
+
+<!-- title -->
+    <div class="title_box">
+
+        <div class="title">
+            <div class="tbox">
+                <h2>오래도록樂
+                </h2>
+                <p>오래도록 머물고 싶은 <br> 즐거운 공간</p>
+            </div>
+        </div>
+        <div class="movie">
+            <video src="./video/title.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+    <!-- //title -->
+
+
+    <!-- main -->
+    <main>
+
+        <!-- section1 first -->
+        <section class="first" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="t_hidden">sec1</h2>
+            <div class="first_img">
+                <img src="./image/main/sec1_img.svg" alt="s1">
+            </div>
+            <div class="first_text">
+                <p>
+                    예로부터 대표적으로 장수를 상징하는 동물이며, <br>
+                    오래도록의 초성으로 등껍질 무늬가 새겨진 거북이와 즐거움이 <br>
+                    만나 오래오래 있어도 즐거운 어르신들을 위한 복합문화공간.
+                </p>
+                <div class="serif">
+                    여기는 오래도록입니다.
+                </div>
+            </div>
+        </section>
+        <!-- //section1 first  -->
+
+
+        <!-- section2 floor -->
+        <section class="floor">
+            <h3>공간 층별 안내</h3>
+
+            <div class="swiper mySwiper flo">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide flobox">
+                        <a href="#">
+                            <picture>
+                                <source srcset="./image/main/f-1.jpg" media="(max-width:1450px)">
+                                <source srcset="./image/main/fl-1.jpg" media="(max-width:1920px)">
+
+                                <img src="./image/main/fl-1.jpg" alt="2-1">
+                            </picture>
+
+                        </a>
+                        <div class="flo-text">
+                            <h2>1층</h2>
+                            <span>힐링하도록</span>
+                            <p>편백나무실,풋스파,실내정원,야외정원</p>
+                        </div>
+                        <div class="coloroverlay"></div>
+                    </div>
+
+                    <div class="swiper-slide flobox">
+                        <a href="#">
+                            <picture>
+                                <source srcset="./image/main/f-2.jpg" media="(max-width:1450px)">
+                                <source srcset="./image/main/fl-2.jpg" media="(max-width:1920px)">
+                                <img src="./image/main/fl-2.jpg" alt="2-2">
+                            </picture>
+
+                        </a>
+                        <div class="flo-text">
+                            <h2>2층</h2>
+                            <span>즐겁도록</span>
+                            <p>도서관,오락시설,영화 및 음악감상,오래오래사진관</p>
+                        </div>
+                        <div class="coloroverlay"></div>
+                    </div>
+
+                    <div class="swiper-slide flobox">
+                        <a href="#">
+                            <picture>
+                                <source srcset="./image/main/f-3.jpg" media="(max-width:1450px)">
+                                <source srcset="./image/main/fl-3.jpg" media="(max-width:1920px)">
+
+                                <img src="./image/main/fl-3.jpg" alt="2-3">
+                            </picture>
+
+                        </a>
+                        <div class="flo-text">
+                            <h2>3층</h2>
+                            <span>오래도록</span>
+                            <p>실내공연장,전시관,이벤트홀</p>
+                        </div>
+                        <div class="coloroverlay"></div>
+                    </div>
+
+                    <div class="swiper-slide flobox">
+                        <a href="#">
+                            <picture>
+                                <source srcset="./image/main/f-4.jpg" media="(max-width:1450px)">
+                                <source srcset="./image/main/fl-4.jpg" media="(max-width:1920px)">
+
+                                <img src="./image/main/fl-4.jpg" alt="2-4">
+                            </picture>
+                        </a>
+
+                        <div class="flo-text">
+                            <h2>옥상</h2>
+                            <span>건강하도록</span>
+                            <p>루프탑 휴식공간,운동 시설</p>
+                        </div>
+                        <div class="coloroverlay"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- mobile floor slide 400~767-->
+
+            <div class="swiper mySwiper mfloor">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide mflobox">
+                        <img src="./image/main/fl-m-1.jpg" alt="fl-m-1">
+                        <div class="mflo-text">
+
+                            <h2>힐링하도록</h2>
+                            <span>편백나무실,풋스파,실내정원</span>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide mflobox">
+                        <img src="./image/main/fl-m-2.jpg" alt="fl-m-2">
+                        <div class="mflo-text">
+                            <h2>즐겁도록</h2>
+                            <span>도서관,오락시설,감상실,사진관</span>
+
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide mflobox">
+                        <img src="./image/main/fl-m-3.jpg" alt="fl-m-3">
+                        <div class="mflo-text">
+                            <h2>오래도록</h2>
+                            <span>실내공연장,전시관,이벤트홀</span>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide mflobox">
+                        <img src="./image/main/fl-m-4.jpg" alt="fl-m-4">
+                        <div class="mflo-text">
+                            <h2>건강하도록</h2>
+                            <span>루프탑 휴식공간,운동 시설</span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- // -->
+
+            <button type="button" class="morebtn">
+                더 보기 <img src="./image/main/nextbtn.svg" alt="more">
+            </button>
+
+        </section>
+
+<!-- // section2 floor -->
+
+
+        <!-- section2-1 joyful -->
+        <div class="joyful">
+
+            <h4>오래도록에서 함께 즐기는 다양한 활동</h4>
+
+            <div class="floor_video">
+                <video src="./video/joyful.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+        <!-- //section2-1 joyful -->
+
+
+        <!-- section3 photo -->
+        <section class="photo">
+            <h3>오래오래사진관</h3>
+            <div class="photobox">
+                <!-- <div class="photo_text"> -->
+                <div class="photoT">
+                    <p>
+                        오래도록의 2층에 위치한 오래오래사진관은 <br>
+                        방문하신 모든 분의 장수를 기원하며, 효도사진을 전문으로 촬영하고 있습니다.
+                    </p>
+
+                    <span>효도사진 외에도 가족 사진과 어르신들의 증명사진, 여권사진 등 다양한 촬영을 제공하고 있습니다.</span>
+                </div>
+
+                <div class="photo_img">
+                    <img src="./image/main/sec3_1.jpg" alt="3_1">
+                </div>
+
+                <div class="photo_btn">
+                    <div class="ask_text">
+                        <h4>예약 관련 <span class="yello">문의하기</span></h4>
+                        <p>
+                            원하시는 촬영을 선택해 예약 신청 및 문의주세요. 전화번호를 남겨주시면 담당자가 직접 연락드리고 빠른 안내 해드립니다.
+                        </p>
+                    </div>
+
+                    <div class="ask_btns">
+                        <a href="#" class="ask_btn">
+                            효도사진
+                        </a>
+                        <a href="#" class="ask_btn">
+                            가족사진
+                        </a>
+                        <a href="#" class="ask_btn">
+                            증명사진
+                        </a>
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- //section3 photo -->
+
+
+        <!-- section3-1 photo_banner -->
+        
+        <div class="photo_banner" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="banner_bg">
+
+                <div class="banner_t">
+                    <p>
+                        오래오래사진관에서는 오래도록을 방문하신 어르신들을 대상으로 <br>
+                        사진 하루배움을 진행하고 있습니다. <br>
+                        원하시는 분은 하단의 <span class="yello">신청하기</span>를 눌러주세요.
+                    </p>
+
+                    <a href="#" class="morebtn_photo">
+                        신청하기 <img src="./image/main/nextbtn.svg" alt="more">
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="banner_img">
+                <img src="./image/main/sec3_2.jpg" alt="banner_img">
+            </div>
+        </div>
+        <!--//section3-1 photo_banner -->
+
+
+        <!-- section4 seniorbox -->
+        <div class="seniorbox">
+            <div class="senior_title">
+                <h3>시니어 사진전</h3>
+
+            </div>
+
+            <div class="swiper mySwiper slick seniorwrap">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide senior">
+                        <figure>
+                            <img src="./image/main/program/seinor-1.jpg" alt="senior1">
+                            <figcaption>
+                                <h4>숨</h4>
+                                <p>구본창 작가</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide senior">
+                        <figure>
+                            <img src="./image/main/program/seinor-2.jpg" alt="senior1">
+                            <figcaption>
+                                <h4>올</h4>
+                                <p>오연복 작가</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide senior">
+                        <figure>
+                            <img src="./image/main/program/seinor-3.jpg" alt="senior1">
+                            <figcaption>
+                                <h4>일곱살 오줌싸개의 빨래</h4>
+                                <p>원성원</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide senior">
+                        <figure>
+                            <img src="./image/main/program/seinor-4.jpg" alt="senior1">
+                            <figcaption>
+                                <h4>초록 작전</h4>
+                                <p>윤성미</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide senior">
+                        <figure>
+                            <img src="./image/main/program/seinor-5.jpg" alt="senior1">
+                            <figcaption>
+                                <h4>용오름</h4>
+                                <p>한성필 작가</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+
+        <!-- //section4 seniorbox -->
+        
+
+        <!-- section5 warring -->
+
+        <section class="warrning">
+
+            <h3>
+                할머니, 할아버지! <br>이젠 외로워하지 마세요.
+            </h3>
+
+            <p>
+                노년기의 외로움은 단순한 감정에 그치지 않고, 어르신들의 소중한 건강까지 해칠 수 있습니다. 심한 경우, 고립감과 무기력함으로 우울증, 치매 발생 위험까지 높아질 수 있습니다.
+            </p>
+
+            <p>
+                만약, 주위에 외로운 어르신이 계신다면 오래도록과 함께 할 수 있게 손 내밀어 주세요.
+            </p>
+
+            <p>
+                <span class="maruburi">오래도록은,</span>
+                노인의 <span class="boldblue"> 사회적 고립을 방지</span>하고 어르신들의 서로 간의 <span class="boldblue">유대관계를 형성할 수 있는
+                    공간</span>이며,
+                다양한 <span class="boldblue">신체적 활동과 문화 생활을 지원하며 건강한 노년기</span>를 보낼 수 있도록 노력합니다.
+            </p>
+        </section>
+        <!-- // section5 warring -->
+
+
+
+
+        <!-- section6 program -->
+
+        <section class="program">
+            <h3>현재 진행 중인 프로그램</h3>
+
+            <div class="swiper mySwiper pro">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_1.jpg" alt="s4-7">
+                            <div class="p_text">
+                                <h4>백건우와 모짜르트</h4>
+                                <p>
+                                    2024.07.18(목)~
+                                    2024.07.27(토)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_2.jpg" alt="s4-8">
+                            <div class="p_text">
+                                <h4>시원한 여름 음악회</h4>
+                                <p>
+                                    2024.07.20(월)~
+                                    2024.08.03(일)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_3.jpg" alt="s4-3">
+                            <div class="p_text">
+                                <h4>춤, 보고싶다</h4>
+                                <p>
+                                    2024.08.03(토)~
+                                    2024.08.31(토)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_4.jpg" alt="s4-4">
+                            <div class="p_text">
+                                <h4>슈만과 브루크너</h4>
+                                <p>
+                                    2024.08.05(월)~
+                                    2024.08.24(토)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_5.jpg" alt="s4-1">
+                            <div class="p_text">
+                                <h4>경계의 교차점</h4>
+                                <p>
+                                    2024.06.13(목)~
+                                    2024.07.07(일)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_6.jpg" alt="s4-2">
+                            <div class="p_text">
+                                <h4>녹는 삼각형</h4>
+                                <p>
+                                    2024.06.29(토)~
+                                    2024.07.19(금)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_7.jpg" alt="s4-3">
+                            <div class="p_text">
+                                <h4>나를 춤추게 하는 것</h4>
+                                <p>
+                                    2024.06.21(금)~
+                                    2024.07.20(토)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_8.jpg" alt="s4-4">
+                            <div class="p_text">
+                                <h4>하중몽유</h4>
+                                <p>
+                                    2024.07.01(월)~
+                                    2024.07.13(토)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_9.jpg" alt="s4-5">
+                            <div class="p_text">
+                                <h4>REAL BANKSY</h4>
+                                <p>
+                                    2024.05.10(금)~
+                                    2024.10.20(일)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide pbox">
+                        <a href="#">
+                            <img src="./image/main/program/sec4_10.jpg" alt="s4-6">
+                            <div class="p_text">
+                                <h4>반 고흐 인사이드</h4>
+                                <p>
+                                    2024.07.15(월)~
+                                    2024.07.31(수)
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+            <button type="button" class="morebtn">
+                더 보기 <img src="./image/main/nextbtn.svg" alt="more">
+            </button>
+
+        </section>
+        <!-- // section6 program -->
+
+        <!-- section7 use -->
+
+        <section class="use">
+            <div class="etc">
+                <h3>이용 안내</h3>
+                <div class="etcbox">
+
+                    <div class="time">
+                        <div class="etc_title">
+                            <img src="./image/main/sec5_time.svg" alt="time">
+                            <span>
+                                운영 시간
+                            </span>
+                        </div>
+                        <ul class="list">
+                            <li>
+                                <div class="timelist">
+                                    월/화/수/목/금
+                                    <span>10:00 ~ 19:00</span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="timelist">
+                                    토/일
+                                    <span>10:00 ~ 21:00</span>
+                                </div>
+                            </li>
+                            <li class="red">
+                                <img src="./image/main/sec5_check.svg" alt="check">
+                                입장마감은 폐관 30분 전까지
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="day">
+                        <div class="etc_title">
+                            <img src="./image/main/sec5_day.svg" alt="day">
+                            <span>
+                                휴관 안내
+                            </span>
+                        </div>
+                        <ul class="list">
+                            <li>매달 마지막 주 화요일, 1월 1일, 설날, 추석</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notice">
+
+                <div class="noticebox">
+
+                    <div class="notices">
+                        <h3>오래도록 소식</h3>
+
+                        <ul class="noticemenu">
+                            <li>전체</li>
+                            <li>프로그램</li>
+                            <li>언론보도</li>
+                            <li>공지사항</li>
+                        </ul>
+
+                        <div class="line">
+                            <!-- 선 -->
+                        </div>
+
+                        <ul class="allnotice">
+                            <li><a href="#" class="notice_t">
+                                    <span>[언론보도]</span> '사진 하루 배움' 수강생 김월선 님, 시니어 사진전 열어 인산인해
+                                </a></li>
+                            <li><a href="#" class="notice_t">
+                                    <span>[프로그램]</span> 노년층을 위한 치매 예방 프로그램 '사진 하루 배움' 정기 신청
+                                </a></li>
+                            <li><a href="#" class="notice_t">
+                                    <span>[공지사항]</span>'하절기 맞아 오래도록 운영 시간 연장돼 야간 개장 실시
+                                </a></li>
+                            <li><a href="#" class="notice_t">
+                                    <span>[언론보도]</span>60대 투표 결과 주말에 놀러가고 싶은 장소 '오래도록'이 선정되어...
+                                </a></li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- //section7 use -->
+
+
+        <!-- section8 map -->
+
+        <section class="map">
+            <div class="maps">
+
+                <div class="maptext">
+                    <h3>오래도록 오시는 길</h3>
+
+                    <div class="map_tt">
+
+                        <ul class="maplist">
+                            <li>제주도 제주시 구좌읍 해맞이 해안로1</li>
+                            <li>대표 전화 : 064-5811-8084</li>
+                            <li>대표 메일 : joylongtime@gmail.com</li>
+                        </ul>
+
+                        <div class="mapbtn">
+                            <a href="https://naver.me/5Vmz4C9t" class="mapa" target="_blank">
+                                네이버 지도 보기</a>
+                            <a href="https://www.google.co.kr/maps/search/%EC%A0%9C%EC%A3%BC%EB%8F%84+%EC%A0%9C%EC%A3%BC%EC%8B%9C+%EA%B5%AC%EC%A2%8C%EC%9D%8D+%ED%95%B4%EB%A7%9E%EC%9D%B4+%ED%95%B4%EC%95%88%EB%A1%9C1?entry=ttu"
+                                class="mapb" target="_blank">
+                                구글 지도 보기</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mapgoogle">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.2484221743866!2d126.8600925948365!3d33.52092620467719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d167702736083%3A0xaf6749d49e4f55cb!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDqtazsoozsnY0g7IOB64-E67aBNOq4uCAx!5e0!3m2!1sko!2skr!4v1720513640719!5m2!1sko!2skr"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <h3 class="hidden_tmap">오래도록 오시는 길</h3>
+            </div>
+        </section>
+
+        <!-- //section8 map -->
+
+
+        <!-- section9 service -->
+
+        <section class="service">
+            <h3>자주 찾으시는 서비스</h3>
+            <ul class="services">
+
+                <li>
+                    <a href="#">
+                        <img src="./image/main/sec6_1.jpg" alt="s6-1">
+                        <div class="h_text">
+                            <p>
+                                이용 안내
+                            </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+
+                        <img src="./image/main/sec6_2.jpg" alt="s6-2">
+                        <div class="h_text">
+                            <p>
+                                프로그램
+                            </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./image/main/sec6_3.jpg" alt="s6-3">
+                        <div class="h_text">
+                            <p>
+                                오시는 길
+                            </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./photo.html">
+                        <img src="./image/main/sec6_4.jpg" alt="s6-4">
+                        <div class="h_text">
+                            <p>
+                                사진관
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- //section9 service -->
+
+
+
+        <!-- section10 instagram -->
+
+        <section class="instagram">
+
+            <h3>오래도록 INSTAGRAM</h3>
+
+            <div class="instabox">
+                <div class="ibox">
+                    <img src="./image/main/sec7_1.jpg" alt="s7-1">
+                </div>
+
+                <div class="ibox">
+                    <img src="./image/main/sec7_2.jpg" alt="s7-2">
+                </div>
+
+                <div class="ibox">
+                    <img src="./image/main/sec7_3.jpg" alt="s7-3">
+                </div>
+
+                <div class="ibox">
+                    <img src="./image/main/sec7_4.jpg" alt="s7-4">
+                </div>
+
+                <div class="ibox_hidden">
+                    <img src="./image/main/sec7_5.jpg" alt="s7-5">
+                </div>
+
+                <div class="ibox_hidden">
+                    <img src="./image/main/sec7_6.jpg" alt="s7-6">
+                </div>
+
+                <div class="ibox_hidden">
+                    <img src="./image/main/sec7_7.jpg" alt="s7-7">
+                </div>
+
+                <div class="ibox_hidden">
+                    <img src="./image/main/sec7_8.jpg" alt="s7-8">
+                </div>
+            </div>
+
+            <button type="button" class="morebtn">
+                더 보기 <img src="./image/main/nextbtn.svg" alt="more">
+            </button>
+
+        </section>
+
+        <!-- //section10 instagram -->
+
+
+        <!-- section11 logos -->
+
+        <section class="logos">
+            <h3 class="t_hidden">logos</h3>
+
+            <div class="swiper mySwiper logo">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/sec8_logo9.svg" alt="lo1">
+                    </div>
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/img-gov-logo.svg" alt="lo1">
+                    </div>
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/sec8_logo2.svg" alt="lo2">
+                    </div>
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/sec8_logo3.svg" alt="lo3">
+                    </div>
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/sec8_logo4.svg" alt="lo4">
+                    </div>
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/jeju.svg" alt="lo5">
+                    </div>
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/sec8_logo7.svg" alt="lo7">
+                    </div>
+                    <div class="swiper-slide lobox">
+                        <img src="./image/main/sec8_logo8.svg" alt="lo8">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- // section11 logos -->
+
+    </main>
+
+    <!-- //main -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="f_inner">
+
+            <div class="f_top">
+
+                <div class="f_logo">
+                    <a href="./index.html">
+                        <img src="./image/main/f_logo.svg" alt="f_logo">
+                    </a>
+                </div>
+
+                <div class="sns">
+
+                    <div class="family">
+                        <select>
+                            <option hidden>Family Site</option>
+                            <option>제주시청</option>
+                            <option>보건복지부</option>
+                            <option>여성가족부</option>
+                        </select>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#">
+                            <img src="./image/main/f_insta.svg" alt="insta">
+                        </a>
+                        <a href="#">
+                            <img src="./image/main/f_you.svg" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f_middle">
+                <div class="left">
+                    <h4>Company</h4>
+                    <p>주소 <span class="adress">제주도 제주시 구좌읍 해맞이해안로 1</span></p>
+                    <p>대표이사 <span class="name">안태경</span></p>
+                </div>
+                <div class="right">
+                    <h4>고객센터</h4>
+                    <p>Tel <span>064-5811-8084</span></p>
+                    <p>Fax <span>070-5811-8084</span></p>
+                </div>
+            </div>
+
+            <div class="f_bottom">
+                <p>
+                    Copyright@ALONGTIME ALL RIGHTS RESERVED.
+                </p>
+
+                <div class="info">
+                    <a href="#">개인정보취급방침</a>
+                    <a href="#">이용안내</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- //footer -->
+
+    <!-- quick btn-->
+
+    <div class="quick">
+        <button type="button" class="qbtn">
+            <span>QUICK</span>
+            <img src="./image/main/q_minus.svg" alt="minus" class="minus">
+            <img src="./image/main/morebtn.svg" alt="more" class="plus">
+        </button>
+
+        <div class="qboxs">
+            <div class="qbox">
+                <a href="./floor.html">
+                    <img src="./image/main/q_floor.svg" alt="q1">
+                    <p>층별안내</p>
+                </a>
+            </div>
+
+            <div class="qbox">
+
+                <a href="#">
+                    <img src="./image/main/q_park.svg" alt="q1">
+                    <p>주차안내</p>
+                </a>
+            </div>
+
+            <div class="qbox">
+                <a href="#">
+                    <img src="./image/main/q_pro.svg" alt="q1">
+                    <p>프로그램</p>
+                </a>
+            </div>
+
+            <div class="qbox">
+                <a href="#">
+                    <img src="./image/main/q_time.svg" alt="q1">
+                    <p>운영시간</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- //quick btn-->
+
+    <!-- topbtn -->
+    <button type="button" class="top">
+        <img src="./image/main/topbtn.svg" alt="top">
+    </button>
+    <!-- //topbtn -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            let a = document.querySelector(".flo")
+            let b = document.querySelector(".pro")
+            let c = document.querySelector(".logo")
+            let d = document.querySelector(".seniorwrap")
+            let e = document.querySelector(".mfloor")
+
+            var swiper = new Swiper(a, {
+                direction: "vertical",
+                slidesPerView: 1,
+                spaceBetween: 30,
+                mousewheel: true,
+                autoHeight: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            var swiper = new Swiper(b, {
+                spaceBetween: 10,
+                slidesPerView: 4,
+                autoplay: true,
+                centeredSlides: true,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                breakpoints: {
+
+                    300: {
+                        centeredSlides: true,
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+
+                    400: {
+                        centeredSlides: true,
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+
+                    575: {
+                        centeredSlides: true,
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+
+                    640: {
+                        centeredSlides: true,
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    767: {
+                        centeredSlides: true,
+                        slidesPerView: 2,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        centeredSlides: true,
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                    1280: {
+                        centeredSlides: true,
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                    },
+
+
+                    1400: {
+                        centeredSlides: true,
+                        slidesPerView: 4,
+                        spaceBetween: 50,
+                    },
+
+                    1600: {
+                        centeredSlides: true,
+                        slidesPerView: 4,
+                        spaceBetween: 50,
+                    },
+
+
+                },
+
+
+            });
+
+            var swiper = new Swiper(c, {
+                spaceBetween: 30,
+                slidesPerView: 5,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                autoplay: {
+                    delay: 1800,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                breakpoints: {
+
+                    767: {
+                        slidesPerView: 5,
+                        spaceBetween: 20,
+                    },
+
+                    400: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+
+                    300: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+
+                }
+
+            });
+
+            var swiper = new Swiper(d, {
+                slidesPerView: 3,
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                    hide: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                breakpoints: {
+
+                    300: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+
+                    400: {
+                        slidesPerView: 1,
+                    },
+
+                    575: {
+                        slidesPerView: 1,
+                    },
+
+                    640: {
+                        slidesPerView: 2,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    },
+
+                    1400: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    },
+
+                    1600: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    },
+
+
+                },
+
+
+            });
+
+            // floor mobile
+
+            var swiper = new Swiper(e, {
+                rewind: true,
+                autoHeight: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+
+        });
+
+
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

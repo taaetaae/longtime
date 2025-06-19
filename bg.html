@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    main {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      mix-blend-mode: lighten;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    main .bg {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    main .bg h2 {
+      font-size: 30rem;
+      white-space: nowrap;
+    }
+
+    .bbg {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="bg">
+      <h2>BIGTITLE</h2>
+    </div>
+  </main>
+
+  <div class="bbg">
+    <!-- <img src="./aaa.jpg" alt="1"> -->
+     <video src="./video/title.mp4" muted autoplay loop></video>
+  </div>
+
+</body>
+
+</html>
