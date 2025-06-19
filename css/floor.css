@@ -1,0 +1,464 @@
+html {
+    font-size: 18px;
+}
+
+main {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+header .subm li {
+    background-color: #fff;
+}
+
+
+.mtitle {
+    font-size: 2.5rem;
+    margin: 4rem 0;
+}
+
+.floor_title {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8rem auto;
+    overflow: hidden;
+    margin-bottom: 12rem;
+}
+
+.floor_wrap {
+    width: 100%;
+    margin-bottom: 12rem;
+}
+
+.floor_title li button {
+    display: block;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 100px;
+    font-family: var(--pointfontfam--);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.floor1_wrap,
+.floor2_wrap,
+.floor3_wrap,
+.floor4_wrap {
+    width: 100%;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.floor2_wrap {
+    display: none;
+}
+
+.floor3_wrap {
+    display: none;
+}
+
+
+.floor4_wrap {
+    display: none;
+}
+
+.floor_text {
+    margin: auto;
+    position: relative;
+}
+
+.floor_text h2 {
+    font-size: 3rem;
+    font-family: var(--pointfontfam--);
+    font-weight: 800;
+    text-align: center;
+}
+
+.floor_text span {
+    display: block;
+    font-size: 10rem;
+    color: #9999992e;
+    text-align: right;
+    font-family: var(--titlefontfam--);
+    font-weight: 800;
+    position: absolute;
+    bottom: 50%;
+    right: -5%;
+}
+
+.floor_text p {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 160%;
+    margin-bottom: 4rem;
+}
+
+.floor_tab img {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+
+.fbox1,
+.fbox2,
+.fbox3,
+.fbox4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+
+/* 메뉴 바 스타일 */
+.top-bar1,
+.top-bar2,
+.top-bar3,
+.top-bar4 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    padding: 0 10px;
+    z-index: 10;
+    margin-bottom: 3rem;
+    padding: 10px;
+}
+
+.top-bar1 a,
+.top-bar2 a,
+.top-bar3 a,
+.top-bar4 a {
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+.top-bar1 a span,
+.top-bar2 a span,
+.top-bar3 a span,
+.top-bar4 a span {
+    padding: 5px 12px;
+    background-color: #FFD000;
+    border-radius: 100%;
+    margin-right: 4px;
+}
+
+
+/* 콘텐츠 박스 스타일 */
+#floor-container1 #floor-container2,
+#floor-container3,
+#floor-container4 {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.floor_box1,
+.floor_box2,
+.floor_box3,
+.floor_box4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.floor_box1 img,
+.floor_box2 img,
+.floor_box3 img,
+.floor_box4 img {
+    width: 50%;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.floor_box1 .inner_text,
+.floor_box2 .inner_text2,
+.floor_box3 .inner_text3,
+.floor_box4 .inner_text4 {
+    width: 40%;
+    padding: 20px;
+    line-height: 160%;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:1800px) {
+    footer {
+        max-width: 100%;
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (max-width:1650px) {
+
+    html {
+        font-size: 17px;
+    }
+
+
+}
+
+@media screen and (max-width:1450px) {
+
+    main {
+        padding: 0 6rem;
+    }
+
+}
+
+@media screen and (max-width:1280px) {
+
+
+    html {
+        font-size: 16px;
+    }
+
+    header,
+    .smenu,
+    main,
+    footer {
+        max-width: 100%;
+        padding: 0 2.6rem;
+    }
+
+
+    .floor_text span {
+        font-size: 8rem;
+    }
+
+    
+.floor_tab img {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+    .floor_box1 img,
+.floor_box2 img,
+.floor_box3 img,
+.floor_box4 img {
+    width: 60%;
+    max-width: 100%;
+    height: 100%;
+}
+
+    .floor_box1 .inner_text,
+.floor_box2 .inner_text2,
+.floor_box3 .inner_text3,
+.floor_box4 .inner_text4 {
+    width: 50%;
+    font-size: 1.1rem;
+}
+
+}
+
+@media screen and (max-width:991px) {
+
+    html {
+        font-size: 15px;
+    }
+
+ h3{
+    font-size: 1.8rem;
+
+}
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    header,
+    .smenu,
+    main,
+    footer {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .mtitle {
+        font-size: 2.2rem;
+    }
+
+    .floor_title {
+        width: 80%;
+        margin-bottom: 10rem;
+    }
+
+    .floor_text h2 {
+        font-size: 2.5rem;
+    }
+
+    .floor_text span {
+        font-size: 6rem;
+    }
+
+    .floor_text p {
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+    }
+
+    .floor_tab img {
+        width: 90%;
+        margin-bottom: 6rem;
+    }
+
+    .floor_box1,
+.floor_box2,
+.floor_box3,
+.floor_box4 {
+    flex-direction: column;
+}
+
+.floor_box1 img,
+.floor_box2 img,
+.floor_box3 img,
+.floor_box4 img {
+    width: 100%;
+}
+
+    .floor_box1 .inner_text,
+.floor_box2 .inner_text2,
+.floor_box3 .inner_text3,
+.floor_box4 .inner_text4 {
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.top-bar1,
+.top-bar2,
+.top-bar3,
+.top-bar4 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 0;
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+
+.top-bar4 {
+    margin-bottom: 2rem;
+}
+
+.top-bar1 a,
+.top-bar2 a,
+.top-bar3 a,
+.top-bar4 a {
+    width: 100%;
+    padding: 4px;
+    margin-right: 8px;
+}
+
+.top-bar1 a span,
+.top-bar2 a span,
+.top-bar3 a span,
+.top-bar4 a span {
+    padding: 2px 8px;
+    margin-right: 4px;
+}
+
+
+}
+
+@media screen and (max-width:575px) {
+    .top-bar1,
+.top-bar2,
+.top-bar3,
+.top-bar4 {
+    font-size: 1rem;
+}
+
+.floor_title {
+    width: 90%;
+}
+
+.floor_text span {
+    font-size: 4.5rem;
+}
+
+
+.top-bar1,
+.top-bar2,
+.top-bar3,
+.top-bar4 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px 0;
+    font-size: 1rem;
+    margin-bottom: 8rem;
+}
+
+.top-bar3,
+.top-bar4 {
+    margin-bottom: 5rem;
+}
+
+}
+
+
+
+@media screen and (max-width:400px) {
+    html {
+      font-size: 15px;
+    }
+
+    .mtitle {
+        font-size: 2rem;
+    }
+
+    .floor_text span {
+        font-size: 3.5rem;
+    }
+
+    .floor_title {
+        width: 100%;
+    }
+
+    .floor_box1 .inner_text,
+.floor_box2 .inner_text2,
+.floor_box3 .inner_text3,
+.floor_box4 .inner_text4 {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+  }

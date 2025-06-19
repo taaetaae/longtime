@@ -1,0 +1,580 @@
+html {
+  font-size: 18px;
+}
+
+main {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+header .subm li {
+  background-color: #fff;
+}
+
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  margin-bottom: 12rem;
+}
+
+.space .s1_img {
+  width: 50%;
+}
+
+.space .s1_text {
+  font-size: 2.8rem;
+  font-family: var(--titlefontfam--);
+  margin: auto;
+  font-weight: 700;
+}
+
+.space .s1_text p {
+  margin-top: 6rem;
+  line-height: 180%;
+}
+
+.textbox {
+  margin: auto;
+  margin-bottom: 12rem;
+}
+
+.textbox h3 {
+  margin: 7rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.textbox p {
+  font-size: 1.5rem;
+  line-height: 180%;
+}
+
+.textbox img {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+
+}
+
+.tab {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+  border-top: 1px solid #99999969;
+  border-bottom: 1px solid #99999969;
+}
+
+.tab button {
+  width: 25%;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--bodyfontfam--);
+  text-align: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.tab button:first-child {
+  border-bottom: 4px solid #1A2755;
+  font-weight: 900;
+}
+
+.brands {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.brands h3 {
+  margin-bottom: 6rem;
+}
+
+.bi {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+opacity: 1;
+}
+
+.bi img {
+  width: 100%;
+  margin: auto;
+}
+
+.grid {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  display: none;
+}
+
+.grid p {
+  font-size: 1.5rem;
+  font-family: var(--bodyfontfam--);
+  line-height: 180%;
+  margin: 2rem 0;
+}
+
+.color {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  display: none;
+
+}
+
+.color p {
+  font-size: 1.5rem;
+  font-family: var(--bodyfontfam--);
+  line-height: 180%;
+  margin-bottom: 5rem;
+}
+
+.color .maincolor {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.color .maincolor .cbox .eight {
+  position: relative;
+}
+
+.color .maincolor .cbox .eight img {
+  width: 90%;
+  margin: auto;
+}
+
+.color .maincolor .cbox .eight p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFD000;
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  font-family: var(--titlefontfam--);
+}
+
+.color .maincolor .cbox .eight .blue {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1A2755;
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-align: center;
+  font-family: var(--titlefontfam--);
+
+}
+
+.color .maincolor .cbox .tbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color .maincolor .cbox .tbox .text h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 2rem 0;
+  margin-top: 5rem;
+}
+
+.color .maincolor .cbox .tbox .text p {
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.bg {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  display: none;
+}
+
+.bg h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.bg .bgbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+
+.bg .bgbox .bbox {
+  width: fit-content;
+  justify-content: flex-start;
+}
+
+.bg .bgbox .bbox img {
+  width: 100%;
+}
+
+.bg .bg2box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.bg .bg2box .b2box {
+  flex-basis: 25%;
+}
+
+.bg .bg2box .b2box img {
+  width: 100%;
+}
+
+
+.bg .bbtn {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 2rem;
+}
+
+.bg .bbtn button {
+  display: block;
+  border: 1px solid #1A2755;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: var(--bodyfontfam--);
+  color: #000;
+  padding: 1rem 2rem;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.about_slides {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+.about_slides img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about_slides p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-family: var(--titlefontfam--);
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.2rem;
+  display: none; }
+
+
+
+  /* 반응형 */
+
+  @media screen and (max-width:1800px) {
+    footer {
+      max-width: 100%;
+      padding: 0 6rem;
+    }
+  }
+
+
+  @media screen and (max-width:1650px) {
+
+    html {
+      font-size: 17px;
+    }
+
+
+  }
+
+  @media screen and (max-width:1450px) {
+
+main {
+  padding: 0 6rem;
+}
+
+.space .s1_text {
+  font-size: 2.5rem;
+}
+
+  }
+
+
+  
+  @media screen and (max-width:1280px) { 
+
+  
+  html {
+    font-size: 16px;
+  }
+
+  header,
+  .smenu,
+  main,
+  footer {
+    max-width: 100%;
+    padding: 0 2.6rem;
+  }
+
+  
+
+.space {
+  flex-direction: column;
+}
+
+.space .s1_img {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+
+.space .s1_text {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+
+.tab button {
+    padding: 1.3rem;
+  font-size: 1.3rem;
+}
+
+.color .maincolor .cbox .eight img {
+  width: 80%;
+}
+
+.color .maincolor .cbox .eight p {
+  font-size: 2rem;
+}
+
+
+
+
+  }
+
+
+  @media screen and (max-width:991px) {
+
+    html {
+      font-size: 15px;
+    }
+
+    .textbox h3 {
+      font-size: 2.2rem;
+      margin: 6rem 0;
+      line-height: 180%;
+    }
+
+    .tab button {
+      width: 25%;
+      padding: 1rem;
+      font-size: 1.2rem;
+    }
+
+
+    .color .maincolor .cbox .eight img {
+      width: 70%;
+      margin: auto;
+    }
+    
+    .color .maincolor .cbox .eight p {
+      font-size: 1.6rem;
+    }
+    
+    .color .maincolor .cbox .eight .blue {
+      font-size: 1.6rem;
+    }
+
+    .color .maincolor .cbox .tbox .text h4 {
+      font-size: 1.3rem;
+      margin-top: 3rem;
+    }
+
+
+  }
+
+  @media screen and (max-width:767px) {
+
+    html {
+      font-size: 16px;
+    }
+
+    header,
+    .smenu,
+    main,
+    footer{ 
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+
+    .space .s1_text {
+      text-align: center;
+      font-size: 2.2rem;
+    }
+
+    .textbox p {
+      font-size: 1.2rem;
+    }
+
+    .textbox {
+      margin-bottom: 8rem;
+    }
+
+    .textbox h3 {
+      margin: 4rem 0;
+      font-size: 1.8rem;
+    }
+
+    .tab {
+      flex-wrap: wrap;
+    }
+
+    .tab button {
+      flex-basis: 50%;
+    }
+
+    .tab button:first-child {
+      border-bottom: 0;
+      font-weight: 900;
+    }
+
+    .brands h3 {
+      font-size: 1.8rem;
+      margin-bottom: 5rem;
+    }
+
+    .bi img {
+      width: 90%;
+      margin: auto;
+    }
+
+    .grid p {
+      font-size: 1.3rem;
+    }
+
+    .color .maincolor {
+      display: block;
+    }
+
+    .color .maincolor .cbox:first-child {
+      margin-bottom: 2rem;
+    }
+
+    .color .maincolor .cbox .eight {
+      margin-bottom: 1rem;
+    }
+
+    .color .maincolor .cbox .eight p {
+      width: 100%;
+    }
+
+    .color .maincolor .cbox .eight p br {
+      display: none;
+    }
+    .color .maincolor .cbox .eight img {
+      width: 100%;
+    }
+
+    .color p {
+      font-size: 1.3rem;
+      margin-bottom: 3rem;
+    }
+
+    .color .maincolor .cbox .tbox .text h4 {
+      font-size: 1.3rem;
+      margin-top: 0;
+    }
+
+    .bg h4 {
+      font-size: 1.3rem;
+    }
+
+    .bg .bgbox {
+      flex-wrap: wrap;
+      margin-bottom: 5rem;
+    }
+    
+    
+    .bg .bgbox .bbox {
+      flex-basis: 50%;
+      justify-content: flex-start;
+    }
+
+    .bg .bbtn button {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+
+    .about_slid {
+      margin-top: 1rem;
+    }
+
+
+    
+  
+  }
+
+  @media screen and (max-width:575px) {
+
+    .space .s1_img img {
+      width: 100%;
+    }
+
+    .space .s1_text {
+      font-size: 1.8rem;
+    }
+
+    .bg .bbtn {
+      gap: 0 1rem;
+    }
+   
+
+
+  }
+
+  @media screen and (max-width:400px) {
+    html {
+      font-size: 15px;
+    }
+
+
+  }
+
+  
+  
+ 
+ 

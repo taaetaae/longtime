@@ -1,0 +1,470 @@
+html {
+    font-size: 18px;
+}
+
+
+main {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header .subm li {
+    background-color: #fff;
+}
+
+.longtext {
+    margin: 12rem 0;
+    font-size: 1.5rem;
+    line-height: 180%;
+}
+
+
+.photobox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 13rem;
+    padding-bottom: 4rem;
+}
+
+.photobox .box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.photobox .box .photoimg img {
+    width: 100%;
+}
+
+.photobox .box .textbox {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.photobox .box .textbox h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+}
+
+.photobox .box a {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 1rem;
+    font-size: 1.3rem;
+    border: 1px solid #fff;
+    margin: auto;
+    padding: 1rem 0;
+    border-radius: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.photobox .box a:hover {
+    background-color: #FFD000;
+    border: 1px solid #FFD000;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+    padding-bottom: -50px;
+}
+
+.class_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6rem;
+    gap: 2rem;
+}
+
+.class_top .photo {
+    width: 50%;
+}
+
+.class_top .classt {
+    width: 50%;
+}
+
+.class h3 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.class p {
+    font-size: 1.5rem;
+    line-height: 180%;
+    font-family: var(--bodyfontfam--);
+}
+
+.class_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 12rem;
+
+}
+
+.class_bottom .whyt {
+    width: 50%;
+}
+
+.class .class_bottom .classbtn {
+    width: 100%;
+    background-color: #1A2755;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 1rem;
+    padding: 1.5rem 0;
+    border-radius: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+.class .class_bottom .classbtn br {
+    display: none;
+}
+
+.review {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 6rem;
+}
+
+.rtitle {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.rtitle h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.rtitle>.morebtn {
+    display: flex;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    line-height: 3rem;
+    justify-content: center;
+}
+
+
+
+.review .morebtn2>button {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Mcolor--);
+    border: none;
+    color: #fff;
+}
+
+.review .morebtn2>button img {
+    width: 24px;
+    margin-left: 1rem;
+}
+
+.review .morebtn2 {
+    width: 100%;
+    display: none;
+}
+
+
+
+.rtitle>.morebtn img {
+    width: 24px;
+    margin-left: 1rem;
+}
+
+.review .reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 1rem;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.review .reviews .rbox {
+    display: block;
+    overflow: hidden;
+}
+
+
+.review .reviews .rbox figure {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.review .reviews .rbox img {
+    transition: 0.5s;
+
+}
+
+.review .reviews .rbox img:hover {
+    transform: scale(1.2);
+}
+
+
+.review .reviews .rbox_t p {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 150%;
+}
+
+.review .reviews .rbox_t span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+
+
+/* 반응형 */
+
+
+@media screen and (max-width:1800px) {
+    footer {
+        max-width: 100%;
+        padding: 0 6rem;
+    }
+}
+
+
+@media screen and (max-width:1650px) {
+
+    html {
+        font-size: 17px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1450px) {
+
+    main {
+        padding: 0 6rem;
+    }
+
+}
+
+
+
+@media screen and (max-width:1280px) {
+
+
+    html {
+        font-size: 16px;
+    }
+
+    header,
+    .smenu,
+    main,
+    footer {
+        max-width: 100%;
+        padding: 0 2.6rem;
+    }
+
+
+    .class h3 {
+        text-align: left;
+    }
+
+    .class_top {
+        flex-direction: column;
+    }
+
+    .class_top .photo {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .class_top .photo img {
+        width: 100%;
+    }
+
+    .class_top .classt {
+        width: 100%;
+    }
+
+    .class_bottom {
+        flex-direction: column-reverse;
+    }
+
+    .class_bottom .whyt {
+        width: 100%;
+    }
+
+    .class_bottom .whyphoto {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .class_bottom .whyphoto img {
+        width: 100%;
+    }
+
+
+    .class .class_bottom .classbtn {
+        width: 60%;
+        background-color: #1A2755;
+        color: #fff;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 1rem;
+        padding: 1.5rem 0;
+        border-radius: 15px;
+        font-weight: 900;
+        cursor: pointer;
+        margin-top: 4rem;
+        margin: 4rem auto;
+    }
+
+    
+
+    .review .reviews {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .review .reviews .rbox {
+        flex-basis: 31%;
+        margin-bottom: 5rem;
+    }
+
+    .review .reviews .rbox_t p {
+        font-size: 1.3rem;
+    }
+    
+    .review .reviews .rbox_t span {
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+@media screen and (max-width:991px) {
+
+    html {
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    header,
+    .smenu,
+    main,
+    footer {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+
+    .class .class_bottom .classbtn {
+        width: 100%;
+    }
+
+    .review .reviews .rbox {
+        flex-basis: 47%;
+    }
+
+
+   
+
+
+}
+
+
+@media screen and (max-width:575px) {
+
+    .photobox {
+        width: 90%;
+    }
+
+
+    .rtitle>.morebtn{
+        display: none;
+    }
+
+    .review .morebtn2 {
+        width: 100%;
+        display: block;
+    }
+
+
+
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 15px;
+    }
+
+    .review .reviews .rbox {
+        flex-basis: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .class .class_bottom .classbtn {
+        line-height: 160%;
+    }
+
+    .class .class_bottom .classbtn br {
+        display: block;
+    }
+
+
+
+}
